@@ -1,13 +1,33 @@
 :root {
-  --white: #ffffff;
+  --bg-color: white;
+  --bg-header: #ffffff;
   --gray: #d9d9d9;
   --black: #000000;
   --primary-color: #02073e;
   --secondary-color: #0f2137;
-  --dark-secondary-color: #3c415c;
+  --dark-secondary-color: rgba(60, 65, 92, 0.5);
   --tertiary-color: #a6b1e1;
   --light-tertiary-color: #f3f6fb;
   --text-color: #343d48;
 
+  --switch-bg-url: url(./assets/Sun.svg);
+  --highlight-color: rgba(255, 255, 255, 0.2);
+  --surface-color: rgba(255, 255, 255, 0.05);
+  --stroke-color: rgb(0, 0, 0);
+
   --font-family: 'DM Sans', sans-serif;
+}
+
+.darkmode {
+  --bg-color: rgba(18, 18, 18, 0.8);
+  --bg-header: rgba(18, 18, 18, 1);
+  --text-color: #ffffff;
+  --tertiary-color: #ffffff;
+  --light-tertiary-color: rgba(14, 14, 14, 0.8);
+  --dark-secondary-color: rgba(161, 161, 161, 0.7);
+  --primary-color: #FFFFFF;
+  --secondary-color: #FFFFFF;
+  --stroke-color: rgba(255, 255, 255, 0.5);
+  --highlight-color: rgba(0, 0, 0, 0.1);
+  --switch-bg-url: url(/assets/MoonStars.svg);
 }

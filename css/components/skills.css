@@ -20,7 +20,7 @@
 }
 
 .skills .skills__content ul li .image-container {
-  background-color: var(--white);
+  background-color: var(--bg-header);
   padding: 2rem;
   border-radius: 50%;
   width: 7rem;
@@ -36,6 +36,7 @@
   font-size: 1.6rem;
   font-weight: 500;
   margin: 2rem 0 1rem;
+  color: var(--text-color);
 }
 
 .skills ul img {
