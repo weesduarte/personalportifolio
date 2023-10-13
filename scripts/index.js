@@ -19,6 +19,10 @@ function toggleMode() {
   const linkedinimg = document.querySelectorAll("img.linkedinimg");
   const instagramimg = document.querySelectorAll("img.instagramimg");
   const profile = document.querySelectorAll("img.weslley");
+  const menu = document.querySelectorAll("img.burguer");
+
+  const novoCaminhoMenuLight = "./assets/menu.svg";
+  const novoCaminhoMenu = "./assets/menu-light.svg"
 
   const novoCaminhoProfDark = "./assets/profileDark.jpg";
   const novoCaminhoProfLight = "./assets/profileWhite.jpg";
@@ -35,6 +39,14 @@ function toggleMode() {
   const novoCaminhoInstagramLight = "./assets/instagram.svg";
   const novoCaminhoInstagramDark = "./assets/instagram-light.svg";
   
+  menu.forEach(function(imagem) {
+    if (html.classList.contains('darkmode')) {
+      imagem.src = novoCaminhoMenu;
+    } else {
+      imagem.src = novoCaminhoMenuLight;
+    }
+  });
+
   githubimg.forEach(function(imagem) {
     if (html.classList.contains('darkmode')) {
       imagem.src = novoCaminhoDark;

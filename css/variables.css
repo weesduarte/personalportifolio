@@ -29,5 +29,5 @@
   --secondary-color: #FFFFFF;
   --stroke-color: rgba(255, 255, 255, 0.5);
   --highlight-color: rgba(0, 0, 0, 0.1);
-  --switch-bg-url: url(./assets/moonStars.svg);
+  --switch-bg-url: url(../../assets/moonStars.svg);
 }

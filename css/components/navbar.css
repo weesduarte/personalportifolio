@@ -56,9 +56,9 @@
     cursor: pointer;
   }
 
-  /* .navbar .navbar__content .navbar__mobile .burguer {
-    margin-right: 3rem;
-  } */
+ .darkmode .navbar .navbar__content .navbar__mobile .burguer {
+    padding: 0.5rem;
+  }
 
   .navbar .navbar__content .navbar__mobile.active .mobile__links {
     display: flex;
@@ -89,7 +89,6 @@
   width: 64px;
   position: relative;
   height: 32px;
-  background: var(--background-color);
   border-radius: 16px;
   cursor: pointer;
   margin-right: 2rem;
@@ -98,7 +97,7 @@
 #switch button {
   width: 3.7rem;
   height: 3.7rem;
-  background: rgb(161, 161, 161) url(./assets/sun.svg) no-repeat center;
+  background: rgb(161, 161, 161) url(../../assets/sun.svg) no-repeat center;
   border-radius: 50%;
   position: absolute;
   left: -0.5rem;
