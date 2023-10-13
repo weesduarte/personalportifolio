@@ -20,20 +20,20 @@ function toggleMode() {
   const instagramimg = document.querySelectorAll("img.instagramimg");
   const profile = document.querySelectorAll("img.weslley");
 
-  const novoCaminhoProfDark = "assets/profileDark.jpg";
-  const novoCaminhoProfLight = "assets/profileWhite.jpg";
+  const novoCaminhoProfDark = "./assets/profileDark.jpg";
+  const novoCaminhoProfLight = "./assets/profileWhite.jpg";
   
-  const novoCaminhoDark = "assets/github-mark-white.svg";
-  const novoCaminhoLight = "assets/github-mark.svg";
+  const novoCaminhoDark = "./assets/github-mark-white.svg";
+  const novoCaminhoLight = "./assets/github-mark.svg";
   
-  const novoCaminhoWppLight = "assets/whatsapp.svg";
-  const novoCaminhoWppDark = "assets/whatsapp-light.svg";
+  const novoCaminhoWppLight = "./assets/whatsapp.svg";
+  const novoCaminhoWppDark = "./assets/whatsapp-light.svg";
   
-  const novoCaminhoLinkedinLight = "assets/linkedin.svg";
-  const novoCaminhoLinkedinDark = "assets/linkedin-light.svg";
+  const novoCaminhoLinkedinLight = "./assets/linkedin.svg";
+  const novoCaminhoLinkedinDark = "./assets/linkedin-light.svg";
   
-  const novoCaminhoInstagramLight = "assets/instagram.svg";
-  const novoCaminhoInstagramDark = "assets/instagram-light.svg";
+  const novoCaminhoInstagramLight = "./assets/instagram.svg";
+  const novoCaminhoInstagramDark = "./assets/instagram-light.svg";
   
   githubimg.forEach(function(imagem) {
     if (html.classList.contains('darkmode')) {
