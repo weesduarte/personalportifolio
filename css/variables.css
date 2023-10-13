@@ -10,7 +10,7 @@
   --light-tertiary-color: #f3f6fb;
   --text-color: #343d48;
 
-  --switch-bg-url: url(./assets/Sun.svg);
+  --switch-bg-url: url(./assets/sun.svg);
   --highlight-color: rgba(255, 255, 255, 0.2);
   --surface-color: rgba(255, 255, 255, 0.05);
   --stroke-color: rgb(0, 0, 0);
@@ -29,5 +29,5 @@
   --secondary-color: #FFFFFF;
   --stroke-color: rgba(255, 255, 255, 0.5);
   --highlight-color: rgba(0, 0, 0, 0.1);
-  --switch-bg-url: url(/assets/MoonStars.svg);
+  --switch-bg-url: url(./assets/moonStars.svg);
 }
