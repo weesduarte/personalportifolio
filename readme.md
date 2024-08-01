@@ -10,7 +10,7 @@ Bem-vindo à minha landing page do portfólio, onde apresento meus projetos e ha
 ## 🔖 Demonstração
 
 <p align="center">
-  <a href="https://weesduarte.github.io/personalportifolio/">
+  <a href="https://weesduarte.github.io/personalportifolio/" target="_blank">
     <img alt="preview portifolio" src=".github/preview.gif" width="100%">
   </a>
 </p>
