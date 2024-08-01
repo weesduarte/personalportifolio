@@ -9,11 +9,12 @@ Bem-vindo à minha landing page do portfólio, onde apresento meus projetos e ha
 
 ## 🔖 Demonstração
 
-Você pode ver a minha landing page em ação [aqui](https://weesduarte.github.io/personalportifolio/).
-
 <p align="center">
-  <img alt="preview portifolio" src=".github/preview.gif" width="100%">
+  <a href="https://weesduarte.github.io/personalportifolio/">
+    <img alt="preview portifolio" src=".github/preview.gif" width="100%">
+  </a>
 </p>
+
 
 ## 🚀 Tecnologias Utilizadas
 
